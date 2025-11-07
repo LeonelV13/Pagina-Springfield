@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Springfield</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <input type="checkbox" class="header__checkbox" id="open-menu">
+        <label for="open-menu" class="header__open-nav-button" role="button">=</label>
+        <div class="header__logo-container">
+            <img class="header__logo" src="Icono.png">
+        </div>
+        <nav class="header__nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-item"><a href="#profile">About</a></li>
+                <li class="header__nav-item"><a href="#portfolio">Portfolio</a></li>
+                <li class="header__nav-item"><a href="#contact">Contact</a></li>
+                <li class="header__nav-item"><a href="#schedule">Schedule</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="profile" id="profile">
+        <div class="profile__wrapper">
+            <div class="profile__img-container">
+                <img src="equipo.png" class="profile__img">
+            </div>
+            <div class="profile__data-container">
+                <div class="profile__data">
+                    <div class="profile__description">
+                        <h1>¿Quienes son Springfield?</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, quia. Corrupti maiores nulla alias, delectus minus unde beatae dolores blanditiis similique quaerat quos nihil necessitatibus accusamus, magnam quasi placeat repudiandae.
+                        </p>
+                    </div>
+                    <div class="profile__stats-container">
+                        <h2>Stats</h2>
+                        <ul>
+                            <li class="profile__stat">
+                                <div class="load-bar">
+                                    <div class="load-bar__bar bar--40">40%</div>
+                                </div>
+                                <span class="profile__stat-name">FG%</span>
+                            </li>
+                            <li class="profile__stat">
+                                <div class="load-bar">
+                                    <div class="load-bar__bar bar--10">10%</div>
+                                </div>
+                                <span class="profile__stat-name">3P%</span>
+                            </li>
+                            <li class="profile__stat">
+                                <div class="load-bar">
+                                    <div class="load-bar__bar bar--35">35%</div>
+                                </div>
+                                <span class="profile__stat-name">FT%</span>
+                            </li>
+                            <li class="profile__stat">
+                                <div class="load-bar">
+                                    <div class="load-bar__bar bar--34">34.5pts</div>
+                                </div>
+                                <span class="profile__stats-name">PPG</span>
+                            </li>
+                            <li class="profile__stat">
+                                <div class="load-bar">
+                                    <div class="load-bar__bar bar--10">10ast</div>
+                                </div>
+                                <span class="profile__stat-name">APG</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <section class="portfolio" id="portfolio">
+        <h2 class="portfolio__title">PORTFOLIO SECTION</h2>
+        <div class="portfolio__project-container">
+            <div class="portfolio__project">
+                <h2 class="portfolio__project-name">PROJECT</h2>
+            </div>
+            <div class="portfolio__project">
+                <h2 class="portfolio__project-name">PROJECT</h2>
+            </div>
+            <div class="portfolio__project">
+                <h2 class="portfolio__project-name">PROJECT</h2>
+            </div>
+            <div class="portfolio__project">
+                <h2 class="portfolio__project-name">PROJECT</h2>
+            </div>
+            <div class="portfolio__project">
+                <h2 class="portfolio__project-name">PROJECT</h2>
+            </div>
+            <div class="portfolio__project">
+                <h2 class="portfolio__project-name">PROJECT</h2>
+            </div>
+        </div>
+    </section>
+    <section class="form" id="contact">
+        <h2 class="form__title">CONTACT</h2>
+        <form class="form__form" action="">
+            <div class="form__input-container">
+                <label for="">Nombre
+                    <input type="text" placeholder="John">
+                </label>
+            </div>
+            <div class="form__input-container">
+                <label for="">Apellido
+                    <input type="text" placeholder="Doe">
+                </label>
+            </div>
+            <div class="form__input-container">
+                <label for="">Mail
+                    <input type="email" placeholder="yourmail@example.com">
+                </label>
+            </div>
+            <div class="form__input-container">
+                <label for="">Mensaje
+                    <textarea placeholder="Your Message"></textarea>
+                </label>
+            </div>
+            <div class="form__input-container">
+                <input type="submit">
+            </div>
+        </form>
+    </section>
+    <section class="schedule" id="schedule">
+        <h2 class="schedule__title">SCHEDULE</h2>
+        <p class="history-games">3 - 7</p>
+        <div class="schedule__game-container">
+            <div class="schedule__game">
+                <p class="fecha">06/07</p>
+                <h2 class="equipos"><strong>Springield vs Hornets</strong></h2>
+                <p class="resultado">44 - 25</p>
+                <p class="resultado">Victoria (+3pts)</p>
+            </div>
+            <div class="schedule__game">
+                <p class="fecha">13/07</p>
+                <h2 class="equipos"><strong>Springield vs DSC</strong></h2>
+                <p class="resultado">32 - 38</p>
+                <p class="resultado">Derrota (+1pts)</p>
+            </div>
+            <div class="schedule__game">
+                <p class="fecha">19/07</p>
+                <h2 class="equipos"><strong>Springield vs Ucumar</strong></h2>
+                <p class="resultado">41 - 46</p>
+                <p class="resultado">Derrota (+1pts)</p>
+            </div>
+            <div class="schedule__game">
+                <p class="fecha">20/07</p>
+                <h2 class="equipos"><strong>Springield vs 3er Tiempo</strong></h2>
+                <p class="resultado">32 - 34</p>
+                <p class="resultado">Derrota (+1pts)</p>
+            </div>
+            <div class="schedule__game">
+                <p class="fecha">26/07</p>
+                <h2 class="equipos"><strong>Springield vs Pandas</strong></h2>
+                <p class="resultado">25 - 14</p>
+                <p class="resultado">Victoria (+3pts)</p>
+            </div>
+            <div class="schedule__game">
+                <p class="fecha">27/07</p>
+                <h2 class="equipos"><strong>Springield vs Mapogos</strong></h2>
+                <p class="resultado">36 - 49</p>
+                <p class="resultado">Derrota (+1pts)</p>
+            </div>
+            <div class="schedule__game">
+                <p class="fecha">03/08</p>
+                <h2 class="equipos"><strong>Springield vs SFC Team</strong></h2>
+                <p class="resultado">36 - 33</p>
+                <p class="resultado">Derrota (+1pts)</p>
+            </div>
+            <div class="schedule__game">
+                <p class="fecha">10/08</p>
+                <h2 class="equipos"><strong>Springield vs El Parque</strong></h2>
+                <p class="resultado">36 - 40</p>
+                <p class="resultado">Derrota (+1pts)</p>
+            </div>
+            <div class="schedule__game">
+                <p class="fecha">17/08</p>
+                <h2 class="equipos"><strong>Springield vs A2Pasos</strong></h2>
+                <p class="resultado">38 - 23</p>
+                <p class="resultado">Victoria (+3pts)</p>
+            </div>
+            <div class="schedule__game">
+                <p class="fecha">24/08</p>
+                <h2 class="equipos"><strong>Springield vs Huarachi Boyz</strong></h2>
+                <p class="resultado">28 - 37</p>
+                <p class="resultado">Derrota (+1pts)</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <strong>TEAM SPRINGFIELD</strong> - Copyright
+    </footer>
+</body>
+</html>
